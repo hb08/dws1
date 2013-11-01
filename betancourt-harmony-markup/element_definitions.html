@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Elements of HTML: Defined!</title>
+	</head>
+	<body>
+		<dl>
+			<dt>Headings: &lt;h#&gt;Heading Text&lt;/h#&gt;</dt>
+				<dd>Headings are used to emphasize certain text, usually as a title of a new section. HTML has six different headings available, the larger and more emphasized the text, the smaller number it holds in the element. This means that &lt;h1&gt; should be used as a first level heading, while &lt;h6&gt; should be used as the lowest level heading in a document.</dd> 
+			<dt>Paragraphs: &lt;p&gt;Paragraph Text&lt;/p&gt;</dt>
+				<dd>Paragraphs are fairly simple and intuitive. Simply place a &lt;p&gt; before the beginning of the paragraph, and &lt;/p&gt; at the very end. Each paragraph that is started and ended this way will be treated as block elements with a space in between</dd> 
+			<dt>Bold: &lt;b&gt;<b>Bolded Text</b>&lt;/b&gt; &lt;strong&gt;<strong>Strong Text</strong>&lt;/strong&gt;</dt>
+				<dd>The bold element can be included within almost every other element, including lists, headings, and paragraphs. This adds emphasis to the text by bolding anything within the tags. Strong text is used in the same manner, and will display as bolded text unless otherwise specified by CSS. Strong text, however, will be read differently by a screen reader, while bold may not have any difference.</dd>
+			<dt>Italic and Emphasis: &lt;i&gt;<i>Italic Text</i>&lt;/i&gt;  &lt;em&gt;<em>Emphasized Text</em>&lt;/em&gt;</dt>
+				<dd>These are included together because many browsers will display italics or emphasized text in the same manner, unless either has been changed through CSS. They can be used within other elements. When a user is utilizing a screen reader, the emphasized elements will be read differently than the rest of the text, while italicized words may not.</dd>
+			<dt>Superscript: Super&lt;sup&gt;<sup>script</sup>&lt;/sup&gt;</dt>				
+				<dd>Superscript are the characters that are smaller and raised above a line. Often used for the letters after the number (like in 2<sup>nd</sup>) or in mathematical equations.</dd> 
+			<dt>Subscript: Sub&lt;sub&gt;<sub>script</sub>&lt;/sub&gt;</dt>
+				<dd>Subscript elements are the smaller characters that reside below the baseline, like in footnotes, or chemical formulas (CH<sub>4</sub>).</dd>
+			<dt>Block Quotes: &lt;blockquote&gt;Quote&lt;/blockquote&gt;
+				<dd>Block quote elements are used with long quotes. In the browser, the block quote element is indented on both sides. The paragraph element should be inside the block quote tags. The cite attribute can be used as follows to indicate where the quote is from. &lt;blockquote cite="url"&gt;
+			<dt>Quote: &lt;q&gt;Quote&lt;/q&gt;</dt>
+				<dd>The quote element is used with shorter quotes that stay inside the paragraph. While in many browsers, quotations are automatically added to any quote element, Internet Explorer does not, making it a risky element to use if the page is to be cross-broswer compatible. As with block quotes, the cite attribute can be used to indicate the source.</dd> 
+			<dt>Abbreviations and Acronyms: &lt;abbr title="Abbreviation"&gt;<abbr title="Abbreviation">Abbr</abbr>&lt;/abbr&gt;</dt>
+				<dd>Abbreviations and Acronyms can be specified as elements. By adding the title to the opening tag, the full word is shown in a tooltip. This can specifically be used for abbreviations or acronyms that are not widely known, yet are used throughout the site.</dd> 
+			<dt>Citations &lt;cite&gt;Citation&lt;/cite&gt;</dt>
+				<dd>The cite element is used to indicate the source of a citation on a website, and is usually italicized in the browser.</dd>
+			<dt>Defining Instance: &lt;dfn&gt;<dfn>First Instance</dfn>&lt;/dfn&gt;</dt>
+				<dd>The first time a term is introduced, especially if it is in academic writing, or jargon, it is called a defining instance. Some browsers will italicize the defining instance, while others like Safari and Chrome, don't.</dd> 
+			<dt>Address: &lt;address&gt;The Address&lt;/address&gt;</dt>
+				<dd>The address element should only be used to hold address or contact information. This can be an actual address, phone number, e-mail, or any other information that will put the user in contact with site author. It is often displayed in italics.</dd>
+			<dt>Delete and Insert: &lt;ins&gt;<ins>Insert</ins>&lt;/ins&gt; &lt;del&gt;<del>Delete</del>&lt;del&gt;</dt>
+				<dd>The delete and insert elements are used to indicate changes in content. These elements are usually displayed as a line through delete, and a line under the insert.</dd>
+			<dt>Strikethrough: &lt;s&gt;<s>Strikethrough</s>&lt;/s&gt;</dt>
+				<dd>The strikethrough element is used for <s>things</s> elements that are not correct, but shouldn't be deleted. This is used for humour on some sites, but also can be used if an item's price has been 'slashed', or for content that is no longer accurate, but still is important.</dd>
+			<dt>Ordered Lists</dt>
+				<dd>Ordered lists, or numbered lists, are used with &lt;ol&gt; &lt;/ol&gt; to start and end the list, with &lt;li&gt;&lt;/li&gt; for each list element.</dd>
+			<dt>Unordered Lists</dt>
+				<dd>Unordered lists are lists that are not lettered or numbered, instead are indented with bullets that can be styled using CSS. To make an unordered list, use &lt;ul&gt; and &lt;/ul&gt; to start and end the list, and &lt;li&gt;&lt;/li&gt; for each bullet point element on the list.</dd>
+			<dt>Definition Lists</dt>
+				<dd>A definition list is the type of list used on this page. The list begins and ends with &lt;dl&gt;&lt;/dl&gt;. The items to be defined use the markup of &lt;dt&gt;&lt;/dt&gt; and the definitions use &lt;dd&gt;&lt;/dd&gt;. One way to remember the correct order is dl for definition list, dt for defined term, and dd for definition defined or definition data. </dd>	
+			<dt>Break &lt;br /&gt;</dt>
+				<dd>A break is creates a new line immediately after where it is placed, and is an empty element, not needing a closing tag. This sentence has a <br /> break in it.</dd>
+			<dt>Horizontal Rule &lt;hr /&gt;</dt>
+				<dd>A horizontal rule is not only a break, but also places a line that can separate items.
+				<hr />
+				The horizontal rule is showcased above.  </dd>
+		</dl>
+	</body>
+</html>	
+	
