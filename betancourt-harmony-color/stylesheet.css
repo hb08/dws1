@@ -1,0 +1,70 @@
+/*   Author: Harmony Betancourt		Date: 2013/11/05
+Colors were picked using Fire Hydrant Bright from Kuler as the base, with changes made to existing colors and another color added on.
+Colors used: 
+Background: rgb(242, 228, 188)  Hex: F2E4BC
+Links: rgb(186, 100, 13)   Hex: BA640D
+Text for H1: rgb(16, 84, 22) Hex 108916  hsl(125.3, 68%, 19.6%)
+Text for H2: rgb(16, 0, 84)  Hex 100054  hsl(251.4, 100%, 16.5%)
+Text for Body: rgb(46, 16, 16)   Hex: 2E1010
+Text for OL: rgb(0, 48, 16)  Hex: 003010  hsl(140, 100%, 9.4%)
+Accent Blue: rgb(201, 223, 242)   Hex: C9DFF2
+Accent Green: rgb(139, 168, 132)    Hex: 8BA884
+ */
+ 
+ 
+body {
+	background-color: #F2E4BC;
+	color: rgb(46,16,16);
+	width: 90%;
+	margin: auto;
+	}
+a {
+	text-decoration: none;
+	color: rgb(186,100,13);
+	}	
+h1 {
+	background-color: #C9DFF2;
+		/*Fallback for if hsl isn't browser friendly */
+	color: rgb(16, 84, 22);
+	color: hsl(125.3, 68%, 19.6%); 
+	padding: 5px;
+	text-align: center;
+	text-transform: capitalize;
+	}
+h2 {
+		/*Fallback if hsl isn't browser friendly */
+	background-color: #8BA884;
+	background-color: hsla(108.3, 17.1%, 58.8%, 0.55);
+		/*Fallback for if hsl isn't browser friendly */
+	color: rgb(16, 0, 84);
+	color: hsl(251.4, 100%, 16.5%);
+	margin: auto; 
+	padding: 3px;
+	text-align: center;
+	text-transform: capitalize;
+	width: 80%;
+	}
+ol {
+		/* Back up in case browser doesn't support rgba */
+	background-color: #C9DFF2;
+		/* Colors with transparency for background */
+	background-color: rgba(201, 223, 242, 0.38);
+	color: rgb(0, 48, 16);
+	
+	}
+ol.sublist {
+	background-color: transparent;
+	list-style-type: lower-roman;
+	}
+#refSource {
+	font-size: 2em;
+	}
+span#sidenote {
+	font-size: 16px;
+	margin-left: 5px;
+	font-style: oblique;
+	}
+
+
+
+	
