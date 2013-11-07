@@ -1,0 +1,88 @@
+/*   Author: Harmony Betancourt		Date: 2013/11/06
+Fonts Used:
+font-family: 'Nova Oval', cursive;
+font-family: 'News Cycle', sans-serif;
+font-family: 'Poiret One', cursive;
+ */
+ 
+ 
+body {
+	background-color: #F2E4BC;
+	color: rgb(46,16,16);
+	font-family: 'News Cycle', sans-serif;
+	width: 90%;
+	margin: auto;
+	}
+p {
+	text-indent: 50px;
+	}
+a:link {
+	color: rgb(237,90,38);
+	font-variant: small-caps;
+	text-decoration: none;
+	}
+a:hover {
+	background-color: #eeedec;
+	padding: 3px;
+	}
+a:visited {
+	color: rgb(240,72,12);
+	}
+a:active {
+	background-color: #fff940;
+	color: rgb(236,146,0);
+	padding: 3px;
+	}	
+h1 {
+	background-color: #C9DFF2;
+		/*Fallback for if hsl isn't browser friendly */
+	color: rgb(16, 84, 22);
+	color: hsl(125.3, 68%, 19.6%);
+	font: bold 48px 'Nova Oval', cursive; 
+	letter-spacing: 5px;
+	padding: 5px;
+	text-align: center;
+	text-shadow: 2px 2px chocolate;
+	text-transform: capitalize;
+	word-spacing: 20px;
+	
+	}
+h2 {
+		/*Fallback if hsl isn't browser friendly */
+	background-color: #8BA884;
+	background-color: hsla(108.3, 17.1%, 58.8%, 0.55);
+		/*Fallback for if hsl isn't browser friendly */
+	color: rgb(16, 0, 84);
+	color: hsl(251.4, 100%, 16.5%);
+	font-family: 'Nova Oval', cursive;
+	margin: auto; 
+	padding: 3px;
+	text-align: center;
+	text-transform: capitalize;
+	width: 80%;
+	text-shadow: 1px 1px darkorange;
+	}
+ol {
+		/* Back up in case browser doesn't support rgba */
+	background-color: #C9DFF2;
+		/* Colors with transparency for background */
+	background-color: rgba(201, 223, 242, 0.20);
+	color: rgb(0, 48, 16);
+	font:bold small-caps 20px/30px 'Poiret One';
+	
+	}
+ol.sublist {
+	background-color: transparent;
+	list-style-type: lower-roman;
+	}
+#refSource {
+	font-size: 2em;
+	}
+span#sidenote {
+	font: oblique 16px 'News Cycle';
+	margin-left: 5px;
+	}
+
+
+
+	
