@@ -72,7 +72,7 @@ h1 {
 		/*Fallback for if hsl isn't browser friendly */
 	color: rgb(16, 84, 22);
 	color: hsl(125.3, 68%, 19.6%);
-	font: bold 28px 'Nova Oval', cursive; 
+	font: bold 1.75em 'Nova Oval', cursive; 
 	letter-spacing: 3px;
 	margin: 10px auto;
 	padding: 5px;
@@ -83,7 +83,7 @@ h1 {
 	width: 100%;
 	}
 	h1#title {
-		font-size: 48px;
+		font-size: 3em;
 	}
 h2 {
 		/*Fallback if hsl isn't browser friendly */
@@ -131,7 +131,7 @@ ol {
 		-moz-border-radius: 10px;
 		-webkit-border-radius: 10px;
 	color: rgb(0, 48, 16);
-	font:bold small-caps 16px/25px 'Poiret One';
+	font:bold small-caps 1em/1.5em 'Poiret One';
 	margin: auto auto 3% auto;
 	width: 80%;
 	
