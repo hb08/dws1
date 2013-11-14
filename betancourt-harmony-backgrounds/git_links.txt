@@ -1,0 +1,10 @@
+Harmony Betancourt
+SID: 0003948694
+Assignment: Backgrounds
+
+
+Links to the finished project:
+
+GitHub Repository: https://github.com/hb08/dws1.git
+
+Backgrounds: http://hb08.github.io/dws1/betancourt-harmony-backgrounds/backgrounds.html
