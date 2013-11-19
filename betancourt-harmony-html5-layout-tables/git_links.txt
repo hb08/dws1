@@ -1,0 +1,10 @@
+Harmony Betancourt
+SID: 0003948694
+Assignment: HTML 5 Layout and Tables
+
+
+Links to the finished project:
+
+GitHub Repository: https://github.com/hb08/dws1.git
+
+HTML 5 Layout and Tables: http://hb08.github.io/dws1/betancourt-harmony-html5-layout-tables/html5-layout-tables.html
